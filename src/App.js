@@ -1,14 +1,12 @@
-
-import './App.css';
-import HomePage from './pages/Homepage';
+import React from "react";
+import { Trafficlight } from "./components/Trafficlight";
 
 const App = () => {
   return (
-    
-    <HomePage />
-    
-    
+    <>
+      <Trafficlight />
+    </>
   );
-}
+};
 
 export default App;
